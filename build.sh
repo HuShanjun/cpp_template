@@ -1,6 +1,7 @@
 #!/bin/bash
 
 mk_dir(){
+    echo "mk_dir $1"
     if [ ! -d $1 ]; then
         mkdir $1
     fi
